@@ -1,0 +1,14 @@
+{
+  "name": "lidis-server",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "npm run lint && npm run compile && node build/",
+    "compile": "tsc index.ts --outDir build/",
+    "lint": "tslint --config tslint.json --project tsconfig.json --fix"
+  },
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.6.1"
+  }
+}
