@@ -9,6 +9,9 @@
     "sourceMap": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
-    "noImplicitThis": true
+    "noImplicitThis": true,
+    "typeRoots": [
+      "./typings"
+    ]
   }
 }
